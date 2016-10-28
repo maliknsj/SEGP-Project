@@ -1,0 +1,120 @@
+.tab-label{
+	-fx-font-family: "Arial";
+	-fx-rotate: 90;
+    -fx-padding: 0 0.0 0.0 0.0;
+    -fx-text-fill: White;
+    -fx-alignment: baseline-left ;
+    -fx-text-origin: bottom ;
+    
+}
+.tab-pane>*.tab-header-area>*.tab-header-background {
+   -fx-background-color:  linear-gradient(to left, #0b6983 , #0b6680);
+}
+.tab-pane>*.tab-header-area>*{
+	-fx-vgap: 0;
+}
+.table-cell{
+	-fx-font-family: "Arial";
+	-fx-alignment: center ;
+	-fx-font-size: 14;
+}
+.tab{
+	-fx-font-family: "Arial";
+	-fx-font-weight: bold;
+	-fx-border-color: linear-gradient(to right,#258ca6,#2a7689);
+	-fx-border-width: 0 1 0 0;
+	-fx-background-color: rgba(0,0,0,0) ; 
+	-fx-cursor: hand ;
+	}
+.tab:hover {
+	 -fx-background-color: linear-gradient(to right,#258ca6,#2a7689); 
+}
+.tab:selected{
+	-fx-background-color: linear-gradient(to right,#095166,#094e64);
+}
+.vbox{
+	-fx-background-color: linear-gradient(to left, #2980b9 , #2c3e50);
+}
+.vTabPane {
+    -fx-tab-min-width:105;    
+    -fx-tab-max-width:105;    
+    -fx-tab-min-height:179;    
+    -fx-tab-max-height:179;  
+    -fx-label-padding: 0 0 0.0 0.0 ;
+    -fx-padding: 0 0 0 0;
+    -fx-background-insets: 0;   
+    -fx-arrows-visible: false;
+    -fx-vgap: 0;
+    -fx-bar-gap: 0; 
+    -fx-label-line-length: 50;  
+    -fx-graphic-text-gap: 15;
+}
+.tablabel{
+	-fx-content-display: top ;
+	-fx-font-family: 'Arial';
+	-fx-graphic-text-gap: 10;
+	-fx-text-fill: white;
+	-fx-font-size: 16;
+}
+.mygradient{
+	-fx-font-family: "Arial";
+	-fx-background-color: linear-gradient(to left, #0b6983 , #0b6680) ;
+}
+.allow:hover{
+	-fx-font-family: "Arial";
+	-fx-background-color: linear-gradient( to bottom, rgb(76,181,98), rgb(56,142,56));
+	-fx-text-fill: white;
+}
+.deny:hover{
+	-fx-font-family: "Arial";
+	-fx-background-color: linear-gradient( to bottom, rgb(230,77,77), rgb(255,102,102));
+	-fx-text-fill: white;
+}
+ .list-cell{
+	-fx-font-family: "Arial";
+	-fx-text-fill: white;
+	-fx-background-color: linear-gradient( from 5.0% 0.0% to 100.0% 100.0%, rgb(255,204,128) 0.0, rgb(255,153,102) 100.0);
+	-fx-border-color: linear-gradient(to left, #0b6983 , #0b6680);
+	-fx-border-width: 0 0.0 0.1 0;
+	-fx-cell-size: 30;
+	-fx-focus-traversable: false;
+}
+.list-cell:selected{
+	-fx-background-color: linear-gradient(to left, #1980b9 , #5aa7d2);
+	-fx-font-family: "Arial";
+	-fx-cell-size: 59;
+	-fx-text-fill: black;
+	-fx-content-display: center
+}
+.radio-button {
+	-fx-padding: 12 12 12 12;
+	-fx-text-fill: white;
+  	-fx-mark-color: orange ;
+  	-fx-font-family: "Arial";
+}
+.search{
+	-fx-font-family: "Arial";
+	-fx-background-radius: 5;
+	-fx-pref-width: 180;
+	-fx-pref-height: 30;
+	-fx-font-size: 16;
+	-fx-alignment: center ;
+}
+.mybar-label{
+	-fx-font-family: "Arial";
+	-fx-text-fill: White;
+	-fx-font-size: 24;
+	-fx-font-weight: bold;
+}
+.record-button{
+	-fx-background-color: linear-gradient(to top,rgba(0,0,0,0),#2592bf); 
+	-fx-background-radius: 90;
+	-fx-text-fill:whitesmoke ;
+	-fx-content-display: top   ;
+	-fx-font-family: "Arial";
+	-fx-font-size: 14;
+	-fx-font-weight: bold;
+}
+.record-button:pressed{
+	-fx-background-color: gray;
+}
